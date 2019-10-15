@@ -32,7 +32,7 @@ h6 {
 }
 
 .text-secondary {
-  color: #331a00;
+  color: black !important;
 }
 
 .btn-primary {
@@ -41,7 +41,8 @@ h6 {
 }
 
 .btn-primary:hover {
-  background-color: #331a00 !important;
+  background-color: #331a00;
+  border-color: #331a00;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -49,3 +50,6 @@ h6 {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
+ul {
+  list-style-type: none;
+}
